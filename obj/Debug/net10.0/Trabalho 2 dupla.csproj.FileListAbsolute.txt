@@ -1,0 +1,15 @@
+C:\Users\alfre\OneDrive\Área de Trabalho\Meus programas\ATP\Trabalho2\PUC_Trabalho_2_dupla_ATP\bin\Debug\net10.0\Trabalho 2 dupla.exe
+C:\Users\alfre\OneDrive\Área de Trabalho\Meus programas\ATP\Trabalho2\PUC_Trabalho_2_dupla_ATP\bin\Debug\net10.0\Trabalho 2 dupla.deps.json
+C:\Users\alfre\OneDrive\Área de Trabalho\Meus programas\ATP\Trabalho2\PUC_Trabalho_2_dupla_ATP\bin\Debug\net10.0\Trabalho 2 dupla.runtimeconfig.json
+C:\Users\alfre\OneDrive\Área de Trabalho\Meus programas\ATP\Trabalho2\PUC_Trabalho_2_dupla_ATP\bin\Debug\net10.0\Trabalho 2 dupla.dll
+C:\Users\alfre\OneDrive\Área de Trabalho\Meus programas\ATP\Trabalho2\PUC_Trabalho_2_dupla_ATP\bin\Debug\net10.0\Trabalho 2 dupla.pdb
+C:\Users\alfre\OneDrive\Área de Trabalho\Meus programas\ATP\Trabalho2\PUC_Trabalho_2_dupla_ATP\obj\Debug\net10.0\Trabalho 2 dupla.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alfre\OneDrive\Área de Trabalho\Meus programas\ATP\Trabalho2\PUC_Trabalho_2_dupla_ATP\obj\Debug\net10.0\Trabalho 2 dupla.AssemblyInfoInputs.cache
+C:\Users\alfre\OneDrive\Área de Trabalho\Meus programas\ATP\Trabalho2\PUC_Trabalho_2_dupla_ATP\obj\Debug\net10.0\Trabalho 2 dupla.AssemblyInfo.cs
+C:\Users\alfre\OneDrive\Área de Trabalho\Meus programas\ATP\Trabalho2\PUC_Trabalho_2_dupla_ATP\obj\Debug\net10.0\Trabalho 2 dupla.csproj.CoreCompileInputs.cache
+C:\Users\alfre\OneDrive\Área de Trabalho\Meus programas\ATP\Trabalho2\PUC_Trabalho_2_dupla_ATP\obj\Debug\net10.0\Trabalho 2 dupla.sourcelink.json
+C:\Users\alfre\OneDrive\Área de Trabalho\Meus programas\ATP\Trabalho2\PUC_Trabalho_2_dupla_ATP\obj\Debug\net10.0\Trabalho 2 dupla.dll
+C:\Users\alfre\OneDrive\Área de Trabalho\Meus programas\ATP\Trabalho2\PUC_Trabalho_2_dupla_ATP\obj\Debug\net10.0\refint\Trabalho 2 dupla.dll
+C:\Users\alfre\OneDrive\Área de Trabalho\Meus programas\ATP\Trabalho2\PUC_Trabalho_2_dupla_ATP\obj\Debug\net10.0\Trabalho 2 dupla.pdb
+C:\Users\alfre\OneDrive\Área de Trabalho\Meus programas\ATP\Trabalho2\PUC_Trabalho_2_dupla_ATP\obj\Debug\net10.0\Trabalho 2 dupla.genruntimeconfig.cache
+C:\Users\alfre\OneDrive\Área de Trabalho\Meus programas\ATP\Trabalho2\PUC_Trabalho_2_dupla_ATP\obj\Debug\net10.0\ref\Trabalho 2 dupla.dll

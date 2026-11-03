@@ -1,6 +1,6 @@
 ﻿int i, qtdDias = 0, diasAcima = 0, diasAbaixo = 0;
-double consumo, total = 0, media, maior, menor;
-double[] consumoOriginal;
+double consumo, total = 0, media, maior, menor, redução = 0, totalReduzido=0, diferença, reducaoPercentual;
+double[] consumoOriginal, consumoSimulado;
 
 Console.Write("Informe a quantidade de dias (7 a 30): ");
 qtdDias = int.Parse(Console.ReadLine());
@@ -77,3 +77,76 @@ for (i = 0; i < qtdDias; i++)
 
 Console.WriteLine($"\nf) Dias acima da média: {diasAcima}");
 Console.WriteLine($"g) Dias abaixo da média: {diasAbaixo}");
+
+
+/////////////////////////////////////////////////////
+
+
+
+// MÉDIA E SIMULAÇÃO - RAYSSA
+
+Console.WriteLine("");
+Console.WriteLine("SIMULAÇÃO DE REDUÇÃO NA CONTA");
+Console.WriteLine("");
+
+while(redução <= 0 || redução > 51)
+{
+    Console.Write($"Digite o percentual de redução (maior que 0% e menor ou igual a 50%):");
+    redução = double.Parse(Console.ReadLine());
+    Console.WriteLine("");
+}
+
+consumoSimulado = new double [qtdDias];
+
+for (i = 0; i < qtdDias; i++)
+{
+    consumoSimulado[i] = consumoOriginal[i];
+}
+
+for(i=0;i<consumoOriginal.Length;i++)
+{
+    if(consumoOriginal[i] < media * 0.8)
+    {
+        Console.WriteLine($"Dia {i + 1}: {consumoOriginal[i]} kWh - Baixo consumo;");
+    }
+    else if(consumoOriginal[i] < media * 1.2)
+    {
+        Console.WriteLine($"Dia {i + 1}: {consumoOriginal[i]} kWh - Consumo Normal;");
+    }
+    else
+    {
+        Console.WriteLine($"Dia {i + 1}: {consumoOriginal[i]} kWh - Alto consumo;");
+
+        consumoSimulado[i] = consumoOriginal[i] * (1 - redução / 100);
+    }
+
+    consumo = consumoSimulado[i];
+    totalReduzido +=consumo;
+}
+
+diferença = total - totalReduzido;
+reducaoPercentual = diferença / total * 100;
+
+//RELATÓRIO
+
+Console.WriteLine("");
+Console.WriteLine("--- RELATÓRIO DE CONSUMO REDUZIDO ---");
+Console.WriteLine("");
+Console.WriteLine("");
+
+
+
+Console.WriteLine("Novo consumo por dia:");
+Console.WriteLine("");
+for (i = 0; i < consumoSimulado.Length; i++)
+{
+    Console.WriteLine($"Dia {i + 1}: {consumoSimulado[i]} kWh");
+}
+Console.WriteLine("");
+Console.WriteLine("");
+
+Console.WriteLine($"Consumo total reduzido {totalReduzido} kwh");
+Console.WriteLine("");
+Console.WriteLine($"Quantidade de KWs economizados: {diferença} kwh");
+Console.WriteLine("");
+Console.WriteLine($"Percentual obtido de redução em relação ao consumo total original: {reducaoPercentual} %");
