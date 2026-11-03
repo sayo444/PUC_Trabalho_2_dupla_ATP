@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Trabalho 2 dupla")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0823c584a584ff4f95fe57559a23faa6515b993b")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+528b3f9aef5859b71750205b364c4e31d20e7524")]
+>>>>>>> 02656c19741fa5b8a02e22978019822a9637cf76
 [assembly: System.Reflection.AssemblyProductAttribute("Trabalho 2 dupla")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Trabalho 2 dupla")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
