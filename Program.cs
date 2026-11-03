@@ -1,5 +1,5 @@
 ﻿int i, qtdDias = 0, diasAcima = 0, diasAbaixo = 0;
-double consumo, total = 0, media, maior, menor, redução = 0, totalReduzido=0, diferença, reducaoPercentual;
+double consumo, total = 0, media, maior, menor, reducao = 0, totalReduzido=0, diferença, reducaoPercentual;
 double[] consumoOriginal, consumoSimulado;
 
 Console.Write("Informe a quantidade de dias (7 a 30): ");
@@ -89,10 +89,10 @@ Console.WriteLine("");
 Console.WriteLine("SIMULAÇÃO DE REDUÇÃO NA CONTA");
 Console.WriteLine("");
 
-while(redução <= 0 || redução > 51)
+while(reducao <= 0 || reducao > 50)
 {
     Console.Write($"Digite o percentual de redução (maior que 0% e menor ou igual a 50%):");
-    redução = double.Parse(Console.ReadLine());
+    reducao = double.Parse(Console.ReadLine());
     Console.WriteLine("");
 }
 
@@ -117,7 +117,7 @@ for(i=0;i<consumoOriginal.Length;i++)
     {
         Console.WriteLine($"Dia {i + 1}: {consumoOriginal[i]} kWh - Alto consumo;");
 
-        consumoSimulado[i] = consumoOriginal[i] * (1 - redução / 100);
+        consumoSimulado[i] = consumoOriginal[i] * (1 - reducao / 100);
     }
 
     consumo = consumoSimulado[i];
